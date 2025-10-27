@@ -5,13 +5,14 @@ Python and Mathematica implementation of calculating a topological invariant for
 ### Code
 - cli.py
     - command line interface for python implementation
-    - to run the code just simply run the comman python3 cli.py <process-name> --set <parameter-name> = <parameter-value> ...
+    - to run the code just simply run the comman python3 cli.py **process-name** --set **parameter-name** = **parameter-value** ...
     - process names that are currently contained in the python codes are: 
         - spectrum  -> for energy spectrum generation
         - wavefuncs -> for generating "Majorana" or "quasi-Majorana" wavefunctions 
         - pdi       -> calculating the pdi value/map for supplied "--mu" and "--zeeman" or mu and zeeman ranges
         - pfaffian  -> calculating the pfaffian value/map for supplied "--mu" and "--zeeman" or mu and zeeman ranges
         - topov     -> calculating the topological visibility (left and right) value/map for supplied "--mu" and "--zeeman" or mu and zeeman ranges
+    - parameter names can be found in libraries/config.py and cli.py
 - requirements.txt
     - contains python requirements
 #### libraries
